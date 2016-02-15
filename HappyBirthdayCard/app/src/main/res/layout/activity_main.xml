@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cake"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:src = "@drawable/abbie"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight = "10dp"
+        android:layout_marginLeft = "10dp"
+        android:layout_marginBottom="260dp"/>
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:src = "@drawable/kathryn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom = "75dp"
+        android:layout_marginRight= "10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="48sp"
+        android:layout_marginRight = "5dp"
+        android:layout_marginLeft = "10dp"
+        android:textColor="@android:color/white"
+        android:text="Happy Birthday Abbie!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="48sp"
+        android:layout_marginBottom= "10dp"
+        android:layout_marginRight = "10dp"
+        android:textColor="@android:color/white"
+        android:text="From, Kathryn" />
+
+
+</RelativeLayout>
