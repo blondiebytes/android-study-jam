@@ -26,7 +26,8 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="24dp"/>
+            android:layout_marginRight="24dp"
+            android:id="@+id/whipped_cream_check_box"/>
 
         <TextView
             android:layout_width="wrap_content"
